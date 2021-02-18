@@ -123,6 +123,11 @@ footer .year {
 
 /* other styles -- mobile */
 
+.body {
+  margin-top: 50px;
+  min-height: calc(100vh - 70px);
+}
+
 img {
   image-rendering: pixelated;
 }
@@ -158,8 +163,4 @@ img {
   right: 5px;
   margin-left: 50px;
   font-size: 30px;
-}
-
-hr {
-  margin-top: 1000px
 }
