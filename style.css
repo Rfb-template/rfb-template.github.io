@@ -14,12 +14,16 @@ header {
   height: 50px;
   width: 100%;
 }
-header a {
+header h2 {
   margin-top: 9px;
   margin-left: 9px;
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
+}
+header h2:hover {
+  color: #00FFBA;
+  transition: .5s;
 }
 header img {
   position: absolute;
@@ -89,7 +93,7 @@ footer .year {
     height: 50px;
     width: 100%;
   }
-  header a {
+  header h2 {
     margin-top: 9px;
     margin-left: 9px;
     display: inline-block;
@@ -118,7 +122,12 @@ footer .year {
   
   /* other styles -- desktop */
   
-  
+  .nav .line {
+    display: none;
+  }
+  .nav .social {
+    display: none;
+  }
 }
 
 /* other styles -- mobile */
@@ -145,6 +154,13 @@ img {
   transition: .7s;
   font-family: 'Poppins', sans-serif;
 }
+.nav .buttons h2 {
+  display: block;
+  padding: 20px 20px;
+  font-size: 40px;
+  text-decoration: none;
+  color: #ffffff;
+}
 .nav .buttons a {
   display: block;
   padding: 20px 20px;
@@ -152,17 +168,25 @@ img {
   text-decoration: none;
   color: #ffffff;
 }
+.nav .buttons h2:hover {
+  color: #00ccff;
+  transition: .3s;
+}
 .nav .buttons a:hover {
   color: #00ccff;
   margin-left: 10px;
   transition: .3s;
 }
-.nav a.close {
+.nav h2.close {
   position: absolute;
   top: -25px;
   right: 5px;
   margin-left: 50px;
-  font-size: 30px;
+  font-size: 40px;
+}
+.nav .line {
+  text-align: center;
+  padding: 40px;
 }
 .nav .social {
   text-align: center;
