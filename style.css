@@ -5,18 +5,19 @@
 }
 body {
   overflow-x: hidden;
+  background-color: #11111A;
 }
 
 header {
   position: fixed;
   top: 0;
-  background-color: #09104A;
-  height: 50px;
+  background-color: #15152A;
+  height: 66px;
   width: 100%;
 }
 header h2 {
-  margin-top: 9px;
-  margin-left: 9px;
+  margin-top: 16px;
+  margin-left: 16px;
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
@@ -27,42 +28,51 @@ header h2:hover {
 }
 header img {
   position: absolute;
-  top: 5px;
-  right: 9px;
+  margin-top: 13px;
+  right: 16px;
 }
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+  color: #fff;
 }
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+  color: #fff;
 }
 h3 {
   font-family: 'Poppins', sans-serif;
+  color: #fff;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
 h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  color: #fff;
 }
 h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
+  color: #fff;
 }
 
 footer {
   padding: 5px;
+  color: #fff;
 }
 footer a {
   color: #000000;
+  color: #fff;
 }
 footer .social {
   margin: auto;
@@ -133,8 +143,8 @@ footer .year {
 /* other styles -- mobile */
 
 .body {
-  margin-top: 50px;
-  min-height: calc(100vh - 70px);
+  margin-top: 66px;
+  min-height: calc(75vh - 70px);
 }
 
 img {
@@ -148,10 +158,10 @@ img {
   z-index: 1;
   top: 0;
   left: -250px;
-  background-color: #09104A;
+  background-color: #15152A;
   overflow: auto;
   padding-top: 60px;
-  transition: .7s;
+  transition: .4s;
   font-family: 'Poppins', sans-serif;
 }
 .nav .buttons h2 {
@@ -179,8 +189,8 @@ img {
 }
 .nav h2.close {
   position: absolute;
-  top: -25px;
-  right: 5px;
+  top: -16px;
+  right: 16px;
   margin-left: 50px;
   font-size: 40px;
 }
