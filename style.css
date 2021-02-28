@@ -21,7 +21,6 @@ header h2 {
   margin-left: 16px;
   display: inline-block;
   text-decoration: none;
-  color: #ffffff;
 }
 header h2:hover {
   color: #00FFBA;
@@ -171,15 +170,15 @@ img {
   font-size: 40px;
   text-decoration: none;
 }
+.nav .buttons h2:hover {
+  color: #00ccff;
+  transition: .3s;
+}
 .nav .buttons a {
   display: block;
   padding: 20px 20px;
   font-size: 20px;
   text-decoration: none;
-}
-.nav .buttons h2:hover {
-  color: #00ccff;
-  transition: .3s;
 }
 .nav .buttons a h3:hover {
   color: #00ccff;
