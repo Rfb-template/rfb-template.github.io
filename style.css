@@ -10,6 +10,7 @@ body {
 
 header {
   position: fixed;
+  z-index: 2;
   top: 0;
   background-color: #15152A;
   height: 66px;
@@ -100,19 +101,19 @@ footer .year {
   header {
     position: fixed;
     top: 0;
-    height: 50px;
+    height: 66px;
     width: 100%;
   }
   header h2 {
-    margin-top: 9px;
-    margin-left: 9px;
+    margin-top: 16px;
+    margin-left: 16px;
     display: inline-block;
     color: #ffffff;
   }
   header img {
     position: absolute;
-    top: 5px;
-    right: 9px;
+    top: 0;
+    right: 16px;
   }
   
   footer {
@@ -155,7 +156,7 @@ img {
   height: 100%;
   width: 250px;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   top: 0;
   left: -250px;
   background-color: #15152A;
@@ -169,20 +170,18 @@ img {
   padding: 20px 20px;
   font-size: 40px;
   text-decoration: none;
-  color: #ffffff;
 }
 .nav .buttons a {
   display: block;
   padding: 20px 20px;
   font-size: 20px;
   text-decoration: none;
-  color: #ffffff;
 }
 .nav .buttons h2:hover {
   color: #00ccff;
   transition: .3s;
 }
-.nav .buttons a:hover {
+.nav .buttons a h3:hover {
   color: #00ccff;
   margin-left: 10px;
   transition: .3s;
